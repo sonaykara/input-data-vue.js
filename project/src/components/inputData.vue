@@ -50,10 +50,10 @@
               <div class="row">
                 <div class="col-md-12 form-group">
                   <label>
-                    <input type="radio" value="erkek" v-model="userData.gender"> Male
+                    <input type="radio" value="Male" v-model="userData.gender"> Male
                   </label>
                   <label>
-                    <input type="radio" value="kadin" v-model="userData.gender"> Famale
+                    <input type="radio" value="Famale" v-model="userData.gender"> Famale
                   </label>
                 </div>
               </div>
@@ -115,7 +115,7 @@
             destripcionTextarea : "",
             interest : [],
             gender : "",
-            cities : ["istanbul" , "Ankara", "İzmir", "Samsun","Konya"],
+            cities : ["İstanbul" , "Ankara", "İzmir", "Samsun","Konya"],
             selectedCity : ""
 
           },
