@@ -38,10 +38,10 @@
                 <div class="col-md-12">
                   <div class="form-group">
                     <label>
-                      <input type="checkbox" value="yazilim" v-model="userData.interest"> Software
+                      <input type="checkbox" value="Software" v-model="userData.interest"> Software
                     </label>
                     <label>
-                      <input type="checkbox" value="donanim" v-model="userData.interest"> Hardware
+                      <input type="checkbox" value="Hardware" v-model="userData.interest"> Hardware
                     </label>
                   </div>
 
